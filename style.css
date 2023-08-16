@@ -1,0 +1,41 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+.textures {
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.textures div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    user-select: all;
+}
+
+.textures div:active {
+    opacity: 0.55;
+}
+
+.texture1 {
+    background: url("texture1.png");
+}
+
+.texture2 {
+    background: url("texture2.png")
+}
+
+.texture3 {
+    background: url("texture3.png")
+}
+
+.zone {
+    margin:10px;
+    background: #ddd;
+    height: 200px;
+}
